@@ -17,4 +17,4 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 Bu projede kullanılan veri seti Kaggle üzerinden alınmıştır. Veri setine aşağıdaki bağlantıdan ulaşabilirsiniz:
 
-- [Kaggle - Churn Modelling Data](https://www.kaggle.com/datasets/shubhendra98/churn-modelling)
+- [Kaggle - Churn Modelling Data](https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling)
