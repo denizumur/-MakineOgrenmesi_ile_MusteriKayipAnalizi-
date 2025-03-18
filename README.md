@@ -12,3 +12,9 @@ Bu proje, bir telekomünikasyon şirketinin müşteri kaybını (churn) tahmin e
 Bu projeyi çalıştırmadan önce aşağıdaki kütüphaneleri yükleyin:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
+
+## Referanslar
+
+Bu projede kullanılan veri seti Kaggle üzerinden alınmıştır. Veri setine aşağıdaki bağlantıdan ulaşabilirsiniz:
+
+- [Kaggle - Churn Modelling Data](https://www.kaggle.com/datasets/shubhendra98/churn-modelling)
