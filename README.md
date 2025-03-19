@@ -29,8 +29,7 @@ Ayrıca, **müşteri churn ile yaş, kredi skoru, bakiye ve tahmini maaş arası
 
 ---
 
-## 🚀 Kullanılan Teknolojiler ve Kütüphaneler  
-
+##  Kullanılan Teknolojiler ve Kütüphaneler  
 | Teknoloji | Açıklama |
 |-----------|---------|
 | Python | Ana programlama dili |
@@ -44,7 +43,7 @@ Ayrıca, **müşteri churn ile yaş, kredi skoru, bakiye ve tahmini maaş arası
 
 ---
 
-## 📥 Gereksinimler ve Kurulum  
+##  Gereksinimler ve Kurulum  
 
 Projeyi çalıştırmak için aşağıdaki adımları takip edin:  
 
