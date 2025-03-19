@@ -1,17 +1,57 @@
-# Müşteri Churn (Abone Kaybı) Tahmini
+#  Müşteri Churn (Abone Kaybı) Tahmini
 
-Bu proje, bir telekomünikasyon şirketinin müşteri kaybını (churn) tahmin etmek için **Karar Ağacı (Decision Tree)** modelini kullanır.
+Bu proje, bir **bankacılık veri seti** kullanarak **hangi müşterilerin bankayı terk etme olasılığının yüksek olduğunu tahmin eden** bir **Makine Öğrenimi Modeli** geliştirir.  
+**Karar Ağacı, Random Forest, XGBoost ve LightGBM** gibi popüler **sınıflandırma algoritmalarını karşılaştırarak en iyi modeli seçer ve tahminlerde bu modeli kullanır**.  
 
-## Özellikler
-- Müşteri verilerini işler ve modele uygun hale getirir.
-- Karar ağacı modeli ile eğitim yapar.
-- Kullanıcının girdiği müşteri bilgilerine göre churn tahmini yapar.
-- Grafiksel analiz ile churn'e etki eden faktörleri gösterir.
+Ayrıca, **müşteri churn ile yaş, kredi skoru, bakiye ve tahmini maaş arasındaki ilişkileri görselleştiren interaktif grafikler** içerir.  
 
-## Gereksinimler
-Bu projeyi çalıştırmadan önce aşağıdaki kütüphaneleri yükleyin:
+---
+
+##  Proje İçeriği  
+
+✔ **Veri Analizi ve Ön İşleme**  
+- **Eksik ve gereksiz sütunlar temizlendi** (RowNumber, CustomerID, Surname kaldırıldı).  
+- **Kategorik değişkenler sayısala çevrildi** (Cinsiyet & Ülke kodlandı).  
+- **Veri ölçeklendirildi** (StandardScaler ile).  
+
+✔ **Model Eğitimi ve Karşılaştırma**  
+- **Karar Ağacı, Random Forest, XGBoost, LightGBM** kullanılarak **karşılaştırmalı bir eğitim yapıldı**.  
+- **Modellerin doğruluk oranları hesaplandı** ve **en iyi model otomatik seçildi**.  
+
+✔ **Gerçek Zamanlı Tahmin**  
+- Kullanıcıdan **müşteri bilgileri alınıyor** ve **en iyi modelle tahmin yapılıyor**.  
+
+✔ **Veri Görselleştirme**  
+- **Yaş - Churn ilişkisi**  
+- **Bakiye - Churn ilişkisi**  
+- **Kredi Skoru - Churn ilişkisi**  
+- **Maaş - Churn ilişkisi**  
+
+---
+
+## 🚀 Kullanılan Teknolojiler ve Kütüphaneler  
+
+| Teknoloji | Açıklama |
+|-----------|---------|
+| Python | Ana programlama dili |
+| Pandas | Veri işleme ve analiz |
+| NumPy | Sayısal işlemler |
+| Matplotlib | Grafik çizimi |
+| Seaborn | Gelişmiş veri görselleştirme |
+| Scikit-learn | Makine öğrenimi modelleri |
+| XGBoost | Gradient boosting modeli |
+| LightGBM | Hafif ve hızlı boosting modeli |
+
+---
+
+## 📥 Gereksinimler ve Kurulum  
+
+Projeyi çalıştırmak için aşağıdaki adımları takip edin:  
+
+### 1 Gerekli Kütüphaneleri Yükleyin  
+Aşağıdaki komutu terminalde çalıştırın:  
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+pip install pandas numpy matplotlib seaborn scikit-learn xgboost lightgbm
 
 ## Referanslar
 
